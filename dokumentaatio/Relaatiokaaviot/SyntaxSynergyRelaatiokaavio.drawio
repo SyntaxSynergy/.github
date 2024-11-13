@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Sivu-1" id="q7A7TDW_s9Yome7i6kMz">
+    <mxGraphModel dx="787" dy="446" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yrau9JsJ21I35wF3_APP-15" value="Tuote" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="214" y="210" width="140" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="vzrbVw56JkfodaXR5nyR-9" value="tuoteId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="yrau9JsJ21I35wF3_APP-15">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vzrbVw56JkfodaXR5nyR-11" value="tyyppi (FK viittaa Tyyppi.tyyppiId)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="yrau9JsJ21I35wF3_APP-15">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yrau9JsJ21I35wF3_APP-17" value="nimi" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="yrau9JsJ21I35wF3_APP-15" vertex="1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yrau9JsJ21I35wF3_APP-18" value="vari" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="yrau9JsJ21I35wF3_APP-15" vertex="1">
+          <mxGeometry y="120" width="140" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="yrau9JsJ21I35wF3_APP-24" value="koko" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="yrau9JsJ21I35wF3_APP-15" vertex="1">
+          <mxGeometry y="149" width="140" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="vzrbVw56JkfodaXR5nyR-8" value="hinta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="yrau9JsJ21I35wF3_APP-15">
+          <mxGeometry y="182" width="140" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="vzrbVw56JkfodaXR5nyR-10" value="ValmistajaId (FK viittaa Valmistaja.ValmistajaId)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="yrau9JsJ21I35wF3_APP-15">
+          <mxGeometry y="215" width="140" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="yrau9JsJ21I35wF3_APP-19" value="Tyyppi" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="473" y="210" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yrau9JsJ21I35wF3_APP-20" value="tyyppiId (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="yrau9JsJ21I35wF3_APP-19" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yrau9JsJ21I35wF3_APP-21" value="tyyppiNimi" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="yrau9JsJ21I35wF3_APP-19" vertex="1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yrau9JsJ21I35wF3_APP-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0.012;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="yrau9JsJ21I35wF3_APP-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="354" y="277" as="sourcePoint" />
+            <mxPoint x="418" y="279" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yrau9JsJ21I35wF3_APP-28" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="349" y="250" width="36" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="yrau9JsJ21I35wF3_APP-29" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="444" y="250" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vzrbVw56JkfodaXR5nyR-1" value="Valmistaja" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="473" y="368" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vzrbVw56JkfodaXR5nyR-2" value="ValmistajaId (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vzrbVw56JkfodaXR5nyR-1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vzrbVw56JkfodaXR5nyR-3" value="valmistajaNimi" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vzrbVw56JkfodaXR5nyR-1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vzrbVw56JkfodaXR5nyR-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="354" y="430" as="sourcePoint" />
+            <mxPoint x="472" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vzrbVw56JkfodaXR5nyR-13" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="354" y="405" width="36" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vzrbVw56JkfodaXR5nyR-14" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="448" y="405" width="25" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
