@@ -1,0 +1,21 @@
+Defenition of done (DoD)
+
+Backlog
+-Jokaisen tehtävän työmäärä on arvioitu planning poker menetelmällä (S, M, L).
+-Tehtävällä on prioriteetti (p0 = kriittinen, p1 = tärkeä, p2 = ei niin tärkeä).
+-Tehtävä kuuluu joko backend -,frontend tai .github osa-alueeseen.
+-Tehtävä täyttää asiakkaan vaatimukset.
+-Tehtävän hyväksymiskriteerit on määritelty selvästi.
+
+In progress
+-Tehtävällä on tekijä.
+
+Review
+-Tehtävään käytetty aika on kirjattu.
+-Tehtävä täyttää asiakkaan hyväksymiskriteerit.
+-Tehtävä on debugattu ja testattu.
+-Dokumentaatio on ajan tasalla.
+
+Done
+-Code review suoritettu (toinen tiimin jäsen suorittaa tämän).
+-Asiakas hyväksyy suorituksen.
