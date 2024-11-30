@@ -1,0 +1,107 @@
+
+Purpose of this document
+Tässä dokumentissa kuvataan, mitä REST-palveluita varasto sovelluksemme tarjoaa. 
+
+REST resources (services)
+
+1.	Hae kaikki tuotteet -> https://syntaxbackend-f811444e58ce.herokuapp.com/tuotteet
+2.	Lisää uusi tuote -> https://syntaxbackend-f811444e58ce.herokuapp.com/tuotteet
+3.	Muokkaa tuotetta -> https://syntaxbackend-f811444e58ce.herokuapp.com/edit/{id}
+4.	Poista tuote -> https://syntaxbackend-f811444e58ce.herokuapp.com/tuotteet/{id}
+5.	Hae kaikki valmistajat -> https://syntaxbackend-f811444e58ce.herokuapp.com/valmistajat
+6.	Lisää uusi valmistaja -> https://syntaxbackend-f811444e58ce.herokuapp.com/valmistajat
+7.      Poista valmistaja -> https://syntaxbackend-f811444e58ce.herokuapp.com/valmistajat/{id}
+
+REST requests and responses
+1 Hae kaikki tuotteet
+HTTP method: GET
+API call: https://syntaxbackend-f811444e58ce.herokuapp.com/tuotteet
+Request body: - 
+Response example below:
+[
+  {
+    "tuoteId": 1,
+    "tyyppi": "Flexihihna",
+    "vari": "Musta",
+    "koko": "M",
+    "hinta": 10.0,
+    "valmistaja": {
+      "valmistajaId": 2,
+      "valmistajaNimi": "Flexi"
+    }
+  },
+  {
+    "tuoteId": 2,
+    "tyyppi": "Flexihihna",
+    "vari": "Musta",
+    "koko": "L",
+    "hinta": 12.0,
+    "valmistaja": {
+      "valmistajaId": 2,
+      "valmistajaNimi": "Flexi"
+    }
+  },
+  {
+    "tuoteId": 3,
+    "tyyppi": "Flexihihna",
+    "vari": "Punainen",
+    "koko": "M",
+    "hinta": 10.0,
+    "valmistaja": {
+      "valmistajaId": 2,
+      "valmistajaNimi": "Flexi"
+    }
+  }
+]
+
+2 Lisää uusi tuote
+HTTP method: POST
+API call: https://syntaxbackend-f811444e58ce.herokuapp.com/tuotteet
+Request body: 
+Response example below (Status 200 OK):
+ 
+3 Muokkaa tuotetta
+HTTP method: GET
+API call: https://syntaxbackend-f811444e58ce.herokuapp.com/edit/{id}
+Request body: 
+Response example below (Status 200 OK):
+
+4 Poista tuote
+HTTP method: GET
+API call:  https://syntaxbackend-f811444e58ce.herokuapp.com/tuotteet/{id}
+Request body: -
+Response: Status 200 OK
+
+5 Hae kaikki valmistajat
+HTTP method: GET
+API call: https://syntaxbackend-f811444e58ce.herokuapp.com/valmistajat
+Request body: -
+Response example below:
+[
+  {
+    "valmistajaId": 1,
+    "valmistajaNimi": "Rukka"
+  },
+  {
+    "valmistajaId": 2,
+    "valmistajaNimi": "Flexi"
+  },
+  {
+    "valmistajaId": 3,
+    "valmistajaNimi": "Pro Active"
+  }
+]
+
+6 Lisää uusi valmistaja
+HTTP method: POST
+API call: https://syntaxbackend-f811444e58ce.herokuapp.com/valmistajat
+Request body: 
+Response example below (Status 200 OK):
+
+7 Poista valmistaja
+HTTP method: GET
+API call: https://syntaxbackend-f811444e58ce.herokuapp.com/valmistajat/{id}
+Request body:
+Response example below (Status 200 OK):
+
+
